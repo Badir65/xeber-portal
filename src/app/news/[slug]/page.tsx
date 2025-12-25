@@ -55,41 +55,6 @@ export default async function NewsDetailPage({ params }: PageProps) {
 
   return (
     <div className="min-h-screen bg-gray-50">
-      {/* Header */}
-      <header className="sticky top-0 z-50 bg-white border-b border-gray-200 shadow-sm">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16 sm:h-20">
-            <Link href="/" className="flex items-center gap-3">
-              <img 
-                src="/logo.png" 
-                alt="Logo" 
-                className="w-12 h-12 sm:w-14 sm:h-14 object-contain"
-              />
-              <div>
-                <h1 className="text-lg sm:text-xl font-bold text-[#2d9fd3] tracking-tight">
-                  YARDIMLI XEYRİYYƏ CƏMİYYƏTİ
-                </h1>
-                {/* <p className="text-[10px] sm:text-xs text-gray-500 tracking-wide">
-                  İctimai Birliyi
-                </p> */}
-              </div>
-            </Link>
-
-            <nav className="hidden md:flex items-center gap-1">
-              {["Ana Səhifə", "Xəbərlər", "Təqvim", "Haqqımızda"].map((item, i) => (
-                <Link
-                  key={item}
-                  href={i === 0 ? "/" : "#"}
-                  className="px-4 py-2 rounded-lg text-sm font-medium text-gray-600 hover:text-[#2d9fd3] hover:bg-gray-100 transition-all duration-200"
-                >
-                  {item}
-                </Link>
-              ))}
-            </nav>
-          </div>
-        </div>
-      </header>
-
       <main className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-12">
         {/* Breadcrumb */}
         <nav className="flex items-center gap-2 text-sm text-gray-500 mb-6">
@@ -242,21 +207,6 @@ export default async function NewsDetailPage({ params }: PageProps) {
           </Link>
         </div>
       </main>
-
-      {/* Footer */}
-      <footer className="border-t border-gray-200 bg-white mt-12">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-          <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
-            <div className="flex items-center gap-3">
-              <img src="/logo.png" alt="Logo" className="w-10 h-10 object-contain" />
-              {/* <span className="font-bold text-[#2d9fd3]">YARDIMLI XEYRİYYƏ</span> */}
-            </div>
-            <p className="text-gray-500 text-sm">
-              © 2024 Yardımlı Xeyriyyə Cəmiyyəti. Bütün hüquqlar qorunur.
-            </p>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 }
