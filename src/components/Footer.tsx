@@ -10,12 +10,12 @@ export default function Footer() {
             <div className="flex items-center gap-3 mb-4">
               <img src="/logo.png" alt="Logo" className="w-12 h-12 object-contain" />
               <div>
-                <span className="text-lg font-bold text-[#2d9fd3]">YARDIMLI</span>
-                <p className="text-xs text-gray-500">Xeyriyyə Cəmiyyəti</p>
+                <span className="text-xs font-bold text-[#2d9fd3]">YARDIMLI XEYRİYYƏ CƏMİYYƏTİ İCTİMAİ BİRLİYİ</span>
+                {/* <p className="text-xs text-gray-500">Xeyriyyə Cəmiyyəti</p> */}
               </div>
             </div>
             <p className="text-gray-500 text-sm leading-relaxed">
-              Yardımlı Xeyriyyə Cəmiyyəti İctimai Birliyi. 2009-cu ildən fəaliyyət göstərir.
+              Yardımlı Xeyriyyə Cəmiyyəti İctimai Birliyi 2009-cu ildən fəaliyyət göstərir.
             </p>
           </div>
 

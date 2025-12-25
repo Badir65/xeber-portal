@@ -24,12 +24,12 @@ export default function Header() {
               className="w-12 h-12 sm:w-14 sm:h-14 object-contain"
             />
             <div>
-              <h1 className="text-lg sm:text-xl font-bold text-[#2d9fd3] tracking-tight">
-                YARDIMLI XEYRİYYƏ
-              </h1>
-              <p className="text-[10px] sm:text-xs text-gray-500 tracking-wide">
+              <h3 className="text-sm sm:text-sm font-bold text-[#2d9fd3] tracking-tight">
+                YARDIMLI XEYRİYYƏ CƏMİYYƏTİ İCTİMAİ BİRLİYİ
+              </h3>
+              {/* <p className="text-[10px] sm:text-xs text-gray-500 tracking-wide">
                 İctimai Birliyi
-              </p>
+              </p> */}
             </div>
           </Link>
 

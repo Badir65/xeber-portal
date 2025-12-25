@@ -375,7 +375,7 @@ export default function MartyrsPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="px-6 py-3 bg-white/10 rounded-xl">
-                <span className="text-2xl mr-2">🇦🇿</span>
+                {/* <span className="text-2xl mr-2">🇦🇿</span> */}
                 <span>Qarabağ Azərbaycandır!</span>
               </div>
             </div>
