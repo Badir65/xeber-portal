@@ -13,6 +13,7 @@ const martyrs = [
     martyrDate: "30.09.2020",
     rank: "MAXE",
     location: "Yardımlı rayonu, Kürəkçi kəndi",
+    image: "/elcinsarvan.png",
   },
   {
     id: 2,
@@ -21,6 +22,7 @@ const martyrs = [
     martyrDate: "30.09.2020",
     rank: "MAXE",
     location: "Yardımlı rayonu, Mirimli kəndi",
+    image: "/zeynalovcavid.png",
   },
   {
     id: 3,
@@ -29,6 +31,7 @@ const martyrs = [
     martyrDate: "02.10.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Bilnə kəndi",
+    image: "/rzalieli.png",
   },
   {
     id: 4,
@@ -37,6 +40,7 @@ const martyrs = [
     martyrDate: "03.10.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Kürəkçi kəndi",
+    image: "/memiyevelmir.png",
   },
   {
     id: 5,
@@ -45,6 +49,7 @@ const martyrs = [
     martyrDate: "04.10.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Ərus kəndi",
+    image: "/qarayevamal.png",
   },
   {
     id: 6,
@@ -53,6 +58,7 @@ const martyrs = [
     martyrDate: "07.10.2020",
     rank: "Gizir",
     location: "Xəzər rayonu, Şuvalan qəsəbəsi",
+    image: "/eyniyevterlan.png",
   },
   {
     id: 7,
@@ -61,14 +67,16 @@ const martyrs = [
     martyrDate: "08.10.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Dəlləkli kəndi",
+    image: "/zairlizahid.png",
   },
   {
     id: 8,
-    name: "Alişanlı Amal Seyfəddin oğlu",
+    name: "Alışanlı Amal Seyfəddin oğlu",
     birthDate: "11.02.2001",
     martyrDate: "08.10.2020",
     rank: "MAXE",
     location: "Yardımlı rayonu, Qabaqdibi kəndi",
+    image: "/alisanliamal.png",
   },
   {
     id: 9,
@@ -77,6 +85,7 @@ const martyrs = [
     martyrDate: "11.10.2020",
     rank: "MAXE",
     location: "Yardımlı şəhəri, Ünəç küçəsi",
+    image: "/seferovsaleh.png",
   },
   {
     id: 10,
@@ -85,6 +94,7 @@ const martyrs = [
     martyrDate: "12.10.2020",
     rank: "Mayor",
     location: "Bakı şəhəri, II Fəxri Xiyaban",
+    image: "/mansurovelcin.png",
   },
   {
     id: 11,
@@ -93,6 +103,7 @@ const martyrs = [
     martyrDate: "18.10.2020",
     rank: "Gizir",
     location: "Yardımlı şəhəri, Əsədabad küçəsi",
+    image: "/sahratovcavid.png",
   },
   {
     id: 12,
@@ -101,6 +112,7 @@ const martyrs = [
     martyrDate: "23.10.2020",
     rank: "Baş Leytenant",
     location: "Yardımlı rayonu, Kürəkçi kəndi",
+    image: "/memiyevvaleh.png",
   },
   {
     id: 13,
@@ -109,6 +121,7 @@ const martyrs = [
     martyrDate: "01.11.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Horonu kəndi",
+    image: "/eminlirustem.png",
   },
   {
     id: 14,
@@ -117,6 +130,7 @@ const martyrs = [
     martyrDate: "07.11.2020",
     rank: "Leytenant",
     location: "Yardımlı rayonu, Çay Üzü kəndi",
+    image: "/aslaovtural.png",
   },
   {
     id: 15,
@@ -125,6 +139,7 @@ const martyrs = [
     martyrDate: "07.11.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Şıxlar kəndi",
+    image: "/talibovelmeddin.png",
   },
   {
     id: 16,
@@ -133,6 +148,7 @@ const martyrs = [
     martyrDate: "07.11.2020",
     rank: "MAXE",
     location: "Yardımlı rayonu, Zevin kəndi",
+    image: "/rufullayevrasim.png",
   },
   {
     id: 17,
@@ -141,6 +157,7 @@ const martyrs = [
     martyrDate: "11.11.2020",
     rank: "Əsgər",
     location: "Yardımlı şəhəri",
+    image: "/mirzeyevsamil.png",
   },
   {
     id: 18,
@@ -149,6 +166,7 @@ const martyrs = [
     martyrDate: "11.11.2020",
     rank: "MAXE",
     location: "Yardımlı rayonu, Zevin kəndi",
+    image: "/sirbeylisiruz.png",
   },
   {
     id: 19,
@@ -157,6 +175,7 @@ const martyrs = [
     martyrDate: "11.11.2020",
     rank: "MAXE",
     location: "Biləsuvar şəhəri",
+    image: "/mirzeyevsarvan.png",
   },
   {
     id: 20,
@@ -165,6 +184,7 @@ const martyrs = [
     martyrDate: "13.11.2020",
     rank: "Əsgər",
     location: "Qaradağ rayonu, Qızıldaş qəsəbəsi",
+    image: "/mesteliyevnureddin.png",
   },
   {
     id: 21,
@@ -173,6 +193,7 @@ const martyrs = [
     martyrDate: "18.11.2020",
     rank: "Gizir",
     location: "Yardımlı rayonu, Zevin kəndi",
+    image: "/feyziyevsadiq.png",
   },
   {
     id: 22,
@@ -181,6 +202,7 @@ const martyrs = [
     martyrDate: "18.11.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Teşkan kəndi",
+    image: "/sultanlielsen.png",
   },
   {
     id: 23,
@@ -189,6 +211,7 @@ const martyrs = [
     martyrDate: "23.11.2020",
     rank: "Əsgər",
     location: "Qaradağ rayonu, Qızıldaş qəsəbəsi",
+    image: "/abisovzeka.png",
   },
   {
     id: 24,
@@ -197,6 +220,7 @@ const martyrs = [
     martyrDate: "30.11.2020",
     rank: "Əsgər",
     location: "Yardımlı rayonu, Avaş kəndi",
+    image: "/mayillimahmud.png",
   },
   {
     id: 25,
@@ -205,6 +229,7 @@ const martyrs = [
     martyrDate: "14.12.2020",
     rank: "MAXE",
     location: "Yardımlı rayonu, Avun kəndi",
+    image: "/ceferlicefer.png",
   },
   {
     id: 26,
@@ -213,6 +238,7 @@ const martyrs = [
     martyrDate: "17.09.2022",
     rank: "Əsgər",
     location: "Xəzər rayonu, Binə Şəhidlər xiyabanı",
+    image: "/balaszaderoyal.jpg",
   },
   {
     id: 27,
@@ -221,6 +247,7 @@ const martyrs = [
     martyrDate: "19.09.2023",
     rank: "Leytenant",
     location: "Pirallahı rayonu",
+    image: "/cahangirovtural.jpg",
   },
 ];
 
@@ -311,13 +338,15 @@ export default function MartyrsPage() {
                   <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-[#0092BC] via-[#E00034] to-[#00A651]"></div>
                   
                   <div className="p-6">
-  
-                    {/* <div className="flex justify-center mb-4">
-                      <div className="w-20 h-20 rounded-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-white text-2xl font-bold shadow-lg">
-                        {martyr.name.split(" ")[0].charAt(0)}
-                        {martyr.name.split(" ")[1]?.charAt(0) || ""}
+                    <div className="flex justify-center mb-4">
+                      <div className="w-24 h-24 rounded-full overflow-hidden border-4 border-gray-200 shadow-lg">
+                        <img 
+                          src={martyr.image} 
+                          alt={martyr.name}
+                          className="w-full h-full object-cover"
+                        />
                       </div>
-                    </div> */}
+                    </div>
                     
                     <h3 className="text-center font-bold text-gray-900 text-lg leading-tight mb-1">
                       {martyr.name}
@@ -327,15 +356,15 @@ export default function MartyrsPage() {
                       {martyr.rank}
                     </p>
                     <div className="space-y-2 text-sm">
-                      <div className="flex items-center justify-between py-2 border-t border-gray-100">
+                      <div className="flex items-center justify-between py-2 border-gray-100">
                         <span className="text-gray-500">Doğum tarixi:</span>
                         <span className="font-medium text-gray-900">{martyr.birthDate}</span>
                       </div>
-                      <div className="flex items-center justify-between py-2 border-t border-gray-100">
+                      <div className="flex items-center justify-between py-2 border-gray-100">
                         <span className="text-gray-500">Şəhid olduğu tarix:</span>
                         <span className="font-medium text-gray-900">{martyr.martyrDate}</span>
                       </div>
-                      <div className="flex items-center justify-between py-2 border-t border-gray-100">
+                      <div className="flex items-center justify-between py-2 border-gray-100">
                         <span className="text-gray-500">Yaşı:</span>
                         <span className="font-medium text-gray-900">{age} yaş</span>
                       </div>
@@ -351,10 +380,6 @@ export default function MartyrsPage() {
                       </div>
                     </div>
                   </div>
-                  
-                  {/* <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <div className="text-2xl">🕯️</div>
-                  </div> */}
                 </div>
               );
             })}
@@ -375,7 +400,6 @@ export default function MartyrsPage() {
             </p>
             <div className="flex flex-wrap justify-center gap-4">
               <div className="px-6 py-3 bg-white/10 rounded-xl">
-                {/* <span className="text-2xl mr-2">🇦🇿</span> */}
                 <span>Qarabağ Azərbaycandır!</span>
               </div>
             </div>
